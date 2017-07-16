@@ -1,0 +1,292 @@
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+c:\users\yoneteam-pc\documents\visual studio 2015\Projects\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+D:\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+D:\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+D:\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+D:\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+D:\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+D:\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+D:\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+D:\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+D:\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+D:\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+D:\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+D:\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+D:\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+D:\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\14.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\HİLMİCAN\15.07.2017 TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\16.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\csc.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\vbc.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll.config
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\TrekkingMvc.pdb
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Webpages.Razor.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Helpers.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\bin\System.Web.Mvc.xml
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.csprojResolveAssemblyReference.cache
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.dll
+C:\Users\Yoneteam-PC\Desktop\TREKKING\17.07.2017-TREKKING\TrekkingMvc\TrekkingMvc\obj\Debug\TrekkingMvc.pdb

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "OrderCompleted";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if ((int)Session["TamamlandiMi"] == 1)
+{
+    <br/>
+    <br />
+    <br />
+    <br />
+    <h1 class="alert alert-success text-center">Siparişiniz başarıyla oluşturuldu. Siparişinizi <b>"#@Session["OrderNumber"]"</b> numaradan takip edebilirsiniz. Geçmiş siparişlerinizi isminize tıklayarak görebilirsiniz.</h1>
+}
+else
+{
+    <h1 class="alert alert-warning text-center">Sipariş oluşturulurken hata oluştu</h1>
+}
+
+
+

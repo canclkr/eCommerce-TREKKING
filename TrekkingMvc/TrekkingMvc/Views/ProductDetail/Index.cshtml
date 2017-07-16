@@ -1,0 +1,368 @@
+﻿@using TrekkingMvc.Models.ViewModel;
+@model ProductDetailVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="../../Content/Theme/css/etalage.css">
+    <script src="../../Content/Theme/js/jquery.etalage.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+
+            $('#etalage').etalage({
+                thumb_image_width: 300,
+                thumb_image_height: 400,
+                source_image_width: 900,
+                source_image_height: 1200,
+                show_hint: true,
+                click_callback: function (image_anchor, instance_id) {
+
+                }
+            });
+
+        });
+    </script>
+    <!-- the jScrollPane script -->
+    <script type="text/javascript" src="../../Content/Theme/js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" id="sourcecode">
+        $(function () {
+            $('.scroll-pane').jScrollPane();
+        });
+    </script>
+
+}
+@section AddToFooter{
+    <script type="text/javascript" src="~/Content/CRUD/Orders/Order.js"></script>
+}
+
+<div class="container">
+    <div class="single">
+        <div class="col-md-9">
+            <div class="single_grid">
+                <div class="grid images_3_of_2">
+                    <ul id="etalage">
+
+                        <li>
+                            <a href="#">
+                                <img class="etalage_thumb_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                                <img class="etalage_source_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <img class="etalage_thumb_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                            <img class="etalage_source_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="etalage_thumb_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                            <img class="etalage_source_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                        </li>
+                        <li>
+                            <img class="etalage_thumb_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                            <img class="etalage_source_image img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt="">
+                        </li>
+
+                    </ul>
+
+                    <div class="clearfix"> </div>
+                </div>
+                <!---->
+                <div class="span1_of_1_des">
+                    <div class="desc1">
+                        <h3>@Model.ProductDt.ProductName</h3>
+                        <p>@Model.ProductDt.Description</p>
+                        <h5>Fiyat : @Model.ProductDt.UnitPrice ₺</h5>
+                        <div class="available">
+                            <h4>Mevcut Seçenekler :</h4>
+                            <ul>
+                                @if (Model.ProductDt.ProductCatTwoID != 4)
+                                {
+                                    <li>
+                                        @if (Model.ProductDt.ProductCatTwoID == 3)
+                                        {
+                                            <span> Numara:</span>
+                                        }
+                                        else
+                                        {
+                                            <span> Beden:</span>
+                                        }
+                                        <select id="Sizes">
+                                            @foreach (var item in Model.Sizes)
+                                            {
+                                                <option value="@item.SizeID">@item.SizeName</option>
+                                            }
+                                        </select>
+                                    </li>
+                                }
+                                <li>
+                                    Adet:
+                                    <select id="Quantity">
+                                        @for (int i = 1; i <= Model.ProductDt.ProductQuantity; i++)
+                                        {
+                                            <option id="@i">@i</option>
+                                        }
+                                    </select>
+                                </li>
+                            </ul>
+                            <div class="form-in">
+                                @if (Model.ProductDt.ProductQuantity != 0)
+                                {
+                                    if (Session["UserID"] != null)
+                                    {
+                                        <a href="#" id="AddtoBasket" contextmenu="@Model.ProductDt.ProductID" class="hvr-shutter-in-horizontal">Sepete Ekle</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action("Index", "Login")" class="hvr-shutter-in-horizontal">Sepete Ekle</a>
+                                    }
+                                }
+                                else
+                                {
+                                    <a href="#" class="hvr-shutter-in-horizontal">Stok Bitmiş</a>
+                                }
+                               
+
+                            </div>
+
+                        </div>
+                        <div class="share-desc">
+                            <div class="share">
+                                <h4>Ürünü Paylaş :</h4>
+                                <ul class="share_nav">
+                                    <li><a href="#"><img src="../../Content/Theme/images/facebook.png" title="facebook"></a></li>
+                                    <li><a href="#"><img src="../../Content/Theme/images/twitter.png" title="Twiiter"></a></li>
+                                    <li><a href="#"><img src="../../Content/Theme/images/rss.png" title="Rss"></a></li>
+                                    <li><a href="#"><img src="../../Content/Theme/images/gpluse.png" title="Google+"></a></li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!---->
+            <div class=" possible-single">
+                <h4>Daha Fazla Açıklama:</h4>
+                <div class="tab1">
+                    <ul class="place">
+                        <li><img src="../../Content/Theme/images/cir.png" alt=""></li>
+                        <li>Bugün Teslimat</li>
+                    </ul>
+                    <p style="display: none; overflow: hidden;">Saat 14:00'e kadar verdiğiniz siparişler aynı gün kapınızda.</p>
+                </div>
+                <div class="tab2">
+                    <ul class="place">
+                        <li><img src="../../Content/Theme/images/cir.png" alt=""></li>
+                        <li>Tek Tıkla Güvenli Alışveriş</li>
+                    </ul>
+                    <p style="display: none; overflow: hidden;">Ödeme ve adres bilgilerinizi kaydedin, güvenli alışveriş yapın.</p>
+                </div>
+                <div class="tab3">
+                    <ul class="place">
+                        <li><img src="../../Content/Theme/images/cir.png" alt=""></li>
+                        <li>Mobil Cebinizde</li>
+                    </ul>
+                    <p style="display: none; overflow: hidden;">Dilediğiniz her yerden güvenli alışverişin keyfini çıkarın.</p>
+                </div>
+                <div class="tab4">
+                    <ul class="place">
+                        <li><img src="../../Content/Theme/images/cir.png" alt=""></li>
+                        <li>Kolay İade</li>
+                    </ul>
+                    <p style="display: none; overflow: hidden;">Aldığınız ürünü iade etmek hiç bu kadar kolay olmamıştı.</p>
+                </div>
+
+                <!--script-->
+                <script>
+                    $(document).ready(function () {
+                        $(".tab1 p").hide();
+                        $(".tab2 p").hide();
+                        $(".tab3 p").hide();
+                        $(".tab4 p").hide();
+                        $(".tab5 p").hide();
+                        $(".tab6 p").hide();
+                        $(".tab1 ul").click(function () {
+                            $(".tab1 p").slideToggle(300);
+                            $(".tab2 p").hide();
+                            $(".tab3 p").hide();
+                            $(".tab4 p").hide();
+                            $(".tab5 p").hide();
+                            $(".tab6 p").hide();
+                        });
+                        $(".tab2 ul").click(function () {
+                            $(".tab2 p").slideToggle(300);
+                            $(".tab1 p").hide();
+                            $(".tab3 p").hide();
+                            $(".tab4 p").hide();
+                            $(".tab5 p").hide();
+                            $(".tab6 p").hide();
+                        });
+                        $(".tab3 ul").click(function () {
+                            $(".tab3 p").slideToggle(300);
+                            $(".tab4 p").hide();
+                            $(".tab5 p").hide();
+                            $(".tab6 p").hide();
+                            $(".tab2 p").hide();
+                            $(".tab1 p").hide();
+                        });
+                        $(".tab4 ul").click(function () {
+                            $(".tab4 p").slideToggle(300);
+                            $(".tab3 p").hide();
+                            $(".tab2 p").hide();
+                            $(".tab1 p").hide();
+                            $(".tab5 p").hide();
+                            $(".tab6 p").hide();
+                        });
+
+
+
+                    });
+                </script>
+                <!-- script -->
+            </div>
+            <!---->
+        </div>
+        <!---->
+        <div class="col-md-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3">
+                        <div class="panel-group" id="accordion">
+
+
+
+                            @{
+                                int sayi = 1;
+
+                                foreach (var item in Model.KategoriBirListe)
+                                {
+                                    if (item.CategoryName != "Tümü")
+                                    {
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    @if (sayi == 1)
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+                                                    else if (sayi == 2)
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+
+                                                </h4>
+                                            </div>
+                                            @if (sayi == 1)
+                                            {
+                                                <div id="collapseOne" class="panel-collapse collapse in">
+
+
+                                                    <div class="panel-body">
+                                                        <table class="table">
+
+                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                            {
+                                                                <tr>
+                                                                    <td>
+                                                                        @{
+                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                        }
+                                                                    </td>
+                                                                </tr>
+
+                                                                            }
+
+
+
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                                            }
+                                                                            else if (sayi == 2)
+                                                                            {
+                                                                                <div id="collapseTwo" class="panel-collapse collapse in">
+
+
+                                                                                    <div class="panel-body">
+                                                                                        <table class="table">
+
+                                                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                                                            {
+                                                                                                <tr>
+                                                                                                    <td>
+                                                                                                        @{
+                                                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                                                        }
+                                                                                                    </td>
+                                                                                                </tr>
+
+                                                                                                            }
+
+
+
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                            }
+                                                                                                            else if (sayi == 3)
+                                                                                                            {
+                                                                                                                <div id="collapseThree" class="panel-collapse collapse in">
+
+
+                                                                                                                    <div class="panel-body">
+                                                                                                                        <table class="table">
+
+                                                                                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                                                                                            {
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        @{
+                                                                                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                                                                                        }
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+
+                                                                                                                                            }
+
+
+
+                                                                                                                        </table>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                                            }
+                                        </div>
+                                                                                                                                                }
+                                                                                                                                                sayi++;
+                                                                                                                                            }
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>

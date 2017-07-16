@@ -1,0 +1,110 @@
+﻿@using TrekkingMvc.Models.ViewModel;
+@model OrderDetailVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="invoice-title">
+                <br />
+                <h2>Sipariş Detayı</h2>
+                <h3 class="pull-right">Sipariş Numarası # @Model.OrderNumber</h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6">
+                    <address>
+                        <strong>Sipariş Veren:</strong><br>
+                        @Model.UserName<br>
+                        @Model.Email<br>
+                    </address>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <address>
+                        <strong>Fatura Adresi</strong><br>
+                        @Model.ContactName<br>
+                        @Model.Country / @Model.City<br>
+                        @Model.PostCode<br>
+                        @Model.FullAddress
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <address>
+                        <strong>Kredi Kartı:</strong><br>
+                        Türkiye İş Bankası **** 4242<br>
+                        @Model.Email
+                    </address>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <address>
+                        <strong>Sipariş Tarihi:</strong><br>
+                        @Model.OrderDate <br><br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Ürünler</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td><strong>Ürün</strong></td>
+                                    <td class="text-center"><strong>Fiyat</strong></td>
+                                    <td class="text-center"><strong>Beden</strong></td>
+                                    <td class="text-center"><strong>Adet</strong></td>
+                                    <td class="text-right"><strong>Toplam</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- foreach ($order->lineItems as $line) or some such thing here -->
+                                @{
+                                    decimal Tutar = 0;
+                                    decimal ToplamTutar = 0;
+
+                                    foreach (var item in Model.ProductList)
+                                    {
+                                        Tutar += item.prcSubTotal;
+                                        <tr>
+                                            <td>@item.prcName</td>
+                                            <td class="text-center">@item.prcUnitPrice ₺</td>
+                                            <td class="text-center">@item.prcSize</td>
+                                            <td class="text-center">@item.prcQuantity</td>
+                                            <td class="text-right">@item.prcSubTotal ₺</td>
+                                        </tr>
+                                    }
+
+                                    <tr>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line text-center"><strong>Tutar</strong></td>
+                                        <td class="thick-line text-right">@Tutar ₺</td>
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

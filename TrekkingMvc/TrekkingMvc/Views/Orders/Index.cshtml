@@ -1,0 +1,51 @@
+﻿@using TrekkingMvc.Models.ViewModel
+@model List<MyOrderVM>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="check-out">
+        <h2>Siparişlerim</h2>
+        <br/>
+        <table>
+            <tr>
+                <th>ÜRÜN</th>
+                <th>ADET</th>
+                <th>FİYAT</th>
+                <th>TOPLAM FİYAT</th>
+                <th>SİPARİŞ NUMARASI</th>
+                <th>DETAY</th>
+            </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="ring-in">
+                            <a href="#" class="at-in"><img src="../../Content/Theme/images/no-image-found.jpg" width="109" class="img-responsive" alt=""></a>
+                            <div class="sed">
+                                <h5>@item.ProductName</h5>
+                                <p>(@item.Description) </p>
+
+                            </div>
+                            <div class="clearfix"> </div>
+                        </td>
+                        <td style="text-align:center;">@item.Quantity</td>
+                        <td style="text-align:center;">@item.UnitPrice ₺</td>
+                        <td style="text-align:center;">@item.SubTotal ₺</td>
+                        <td style="text-align:center;">#@item.OrderNumber</td>
+                        <td>
+                           <a href="@Url.Action("OrderDetail", "Orders", new {OrderNumber = item.OrderNumber})" class="btn btn-success center-block">Sipariş Detay</a>
+                        </td>
+                    </tr>
+
+                  
+
+                }
+         
+
+
+
+        </table>
+    </div>
+</div>

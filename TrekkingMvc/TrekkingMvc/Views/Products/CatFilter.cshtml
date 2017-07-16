@@ -1,0 +1,188 @@
+﻿@using TrekkingMvc.Models.ViewModel;
+@model ProductsVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section AddToHead{
+    <link href="@Url.Content("~/Content/Theme/css/Sidebar.css")" rel="stylesheet" type="text/css" />
+}
+
+
+<div class="content">
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-1" style="margin-top: 65px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3">
+                        <div class="panel-group" id="accordion">
+
+
+
+                            @{
+                                int sayi = 1;
+
+                                foreach (var item in Model.KategoriBirListe)
+                                {
+
+                                    if (item.CategoryName != "Tümü")
+                                    {
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    @if (sayi == 1)
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+                                                    else if (sayi == 2)
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                            <span class="glyphicon glyphicon-triangle-right">
+                                                            </span>@item.CategoryName
+                                                        </a>
+                                                    }
+
+                                                </h4>
+                                            </div>
+                                            @if (sayi == 1)
+                                            {
+                                                <div id="collapseOne" class="panel-collapse collapse in">
+
+
+                                                    <div class="panel-body">
+                                                        <table class="table">
+
+                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                            {
+                                                                <tr>
+                                                                    <td>
+                                                                        @{
+                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                        }
+                                                                    </td>
+                                                                </tr>
+
+                                                                            }
+
+
+
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                                            }
+                                                                            else if (sayi == 2)
+                                                                            {
+                                                                                <div id="collapseTwo" class="panel-collapse collapse in">
+
+
+                                                                                    <div class="panel-body">
+                                                                                        <table class="table">
+
+                                                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                                                            {
+                                                                                                <tr>
+                                                                                                    <td>
+                                                                                                        @{
+                                                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                                                        }
+                                                                                                    </td>
+                                                                                                </tr>
+
+                                                                                                            }
+
+
+
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                                                            }
+                                                                                                            else if (sayi == 3)
+                                                                                                            {
+                                                                                                                <div id="collapseThree" class="panel-collapse collapse in">
+
+
+                                                                                                                    <div class="panel-body">
+                                                                                                                        <table class="table">
+
+                                                                                                                            @foreach (var katitem in Model.KategoriIkiListe)
+                                                                                                                            {
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        @{
+                                                                                                                                            string strCatID = Convert.ToString(item.ProductCatOneID) + "-" + Convert.ToString(katitem.ProductCatTwoID);
+
+                                                                                                                                            <span class="glyphicon glyphicon-menu-right text-primary"></span><a href="@Url.Action("CatFilter", "Products", new {catID = strCatID })">@katitem.CategoryName</a>
+                                                                                                                                        }
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+
+                                                                                                                                            }
+
+
+
+                                                                                                                        </table>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                                            }
+                                        </div>
+                                                                                                                                                }
+
+
+                                                                                                                                                sayi++;
+                                                                                                                                            }
+
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+
+       
+                <div class="container">
+                    <div class="content-product">
+                        <h3 class="future-men">@Model.KatBirAd</h3>
+
+                        @foreach (var item in Model.UrunListe)
+                        {
+                            <div class="col-md-4 col-d">
+                                <div class="men-grid in-men">
+                                    <a href="@Url.Action("Index","ProductDetail",new {prcID = item.ProductID})"><img class="img-responsive" src="../../Content/Theme/images/me6.png" alt=""></a>
+                                    <div class="value-in">
+                                        <p>@item.ProductName</p>
+                                        <span>@item.UnitPrice €</span>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!---->
+
+</div>

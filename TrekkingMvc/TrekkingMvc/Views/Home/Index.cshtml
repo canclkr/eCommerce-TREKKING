@@ -1,0 +1,144 @@
+﻿@using TrekkingMvc.Models.ViewModel
+@model HomeVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="banner">
+    <div class="container">
+        <h1>Giysilerimiz, konforunuz</h1>
+        <p>
+            Sizin için en iyi ürünleri bulup üst düzey denetimlerden geçirip sizinle paylaşıyoruz.
+
+        </p>
+        <a href="#content" class="scroll down"><img src="../../Content/Theme/images/arr.png" alt=""></a>
+    </div>
+</div>
+<div class="content" id="content">
+    <div class="content-top">
+        <div class="container">
+            <div class="content-top-at">
+                  
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-grid">
+            <h3 class="future">Erkek</h3>
+            <p class="five">1/5</p>
+            <div class="clearfix"> </div>
+            <ul id="flexiselDemo1">
+
+                @foreach (var item in Model.ErkekProductsList)
+                {
+                    <li>
+                        <div class="men-grid">
+                            <a href="@Url.Action("Index", "ProductDetail", new { prcID = item.ProductID })"><img class="img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt=""></a>
+                            <div class="value-in">
+                                <p>@item.ProductName</p>
+                                <span>@item.UnitPrice ₺</span>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+
+
+
+
+
+            </ul>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $("#flexiselDemo1").flexisel({
+                        visibleItems: 3,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 2
+                            }
+                        }
+                    });
+
+                });
+            </script>
+        </div>
+        <div class="content-grid">
+            <h3 class="future-in">Kadın</h3>
+            <p class="five">1/5</p>
+            <div class="clearfix"> </div>
+            <ul id="flexiselDemo2">
+                @foreach (var item in Model.KadınProductList)
+                {
+
+                    <li>
+                        <div class="men-grid">
+                            <a href="@Url.Action("Index","ProductDetail",new {prcID = item.ProductID})"><img class="img-responsive" src="../../Content/Theme/images/no-image-found.jpg" alt=""></a>
+                            <div class="value-in">
+                                <p>@item.ProductName</p>
+                                <span>@item.UnitPrice ₺</span>
+                                <div class="clearfix"> </div>
+                            </div>
+                            @*<div class="down-top ">
+
+                                    <select class="drop-down">
+                                        <option value="" class="size" value="">SIZE</option>
+                                        <option value="1">Large</option>
+                                        <option value="2">Medium</option>
+                                        <option value="3">Small</option>
+                                    </select>
+                                </div>*@
+                        </div>
+                    </li>
+                }
+
+
+            </ul>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $("#flexiselDemo2").flexisel({
+                        visibleItems: 3,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 2
+                            }
+                        }
+                    });
+
+                });
+            </script>
+
+        </div>
+    </div>
+    <!---->
+</div>

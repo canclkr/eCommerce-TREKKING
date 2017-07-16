@@ -1,0 +1,254 @@
+﻿@using System.Activities.Expressions
+@using TrekkingMvc.Models
+@using TrekkingMvc.Models.ViewModel
+@{
+    OrderOparations op = new OrderOparations();
+    List<OrderVM> odList = new List<OrderVM>();
+    odList = (List<OrderVM>)Session["Basket"];
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>@ViewBag.Title</title>
+
+
+    <link href="../../Content/Bootstrap/Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/Content/Bootstrap/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Content/Bootstrap/Scripts/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="~/Content/Theme/css/toastr.css" rel="stylesheet" />
+    <link href="../../Content/Theme/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+
+    <script type="text/javascript" src="../Content/Theme/js/move-top.js"></script>
+    <script type="text/javascript" src="../Content/Theme/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!--//slider-script-->
+    <script>
+        $(document).ready(function (c) {
+            $('.alert-close').on('click', function (c) {
+                $('.message').fadeOut('slow', function (c) {
+                    $('.message').remove();
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function (c) {
+            $('.alert-close1').on('click', function (c) {
+                $('.message1').fadeOut('slow', function (c) {
+                    $('.message1').remove();
+                });
+            });
+        });
+    </script>
+    @if (IsSectionDefined("AddToHead"))
+    {
+        @RenderSection("AddToHead", required: false)
+    }
+</head>
+<body>
+
+    <!--header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="@Url.Action("Index","Home")" style="text-decoration: none;"><img src="../Content/Theme/images/logo.png" alt="">
+                        <span style="color:white;font-size: 30px;margin-left: 15px;"><b>H2Walk</b></span>
+                    </a>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"><img src="../Content/Theme/images/menu.png" alt=""> </span>
+                    <ul class="icon1 sub-icon1">
+                        <li><a href="@Url.Action("Index","Home")">Anasayfa</a></li>
+                        <li><a href="@Url.Action("Index","Products")">Ürünler</a></li>
+                        @if (Session["AdSoyad"] == null)
+                        {
+                            <li><a href="@Url.Action("Index","Login")">Giriş Yap/Üye Ol</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Index","Orders")">Sn. @Session["AdSoyad"]</a></li>
+                            <li><a href="@Url.Action("LogOut","Login")">Çıkış</a></li>
+                        }
+
+                        <li>
+                            <a href="#"><i></i></a>
+                            <ul class="sub-icon1 list">
+                                <h3 id="SepetUrunSayisi">
+                                    @if (Session["Basket"] != null)
+                                    {
+                                        <span id="SepetUrunSayisi">Sepetinizdeki Ürünler (@op.mtdTotalProducCount())</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Sepet Boş</span>
+                                    }
+                                </h3>
+                                <div class="shopping_cart" id="Basket">
+
+                                    @{
+
+                                        if (Session["Basket"] != null)
+                                        {
+                                            int sayi = 0;
+                                            string msj = "message";
+                                            string yeniMsj = "";
+                                            foreach (var item in odList)
+                                            {
+                                                if (sayi == 0)
+                                                {
+                                                    <div class="cart_box">
+                                                        <div class="message">
+                                                            <div class="list_img">
+                                                                <img src="../Content/Theme/images/15.jpg" class="img-responsive" alt="">
+                                                            </div>
+                                                            <div class="list_desc">
+                                                                <h4><a href="#">@item.prcName</a></h4>
+                                                                <p>@item.prcDesription</p>
+                                                                <a href="#" class="offer">@item.prcQuantity Teklif Uygulandı</a>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+                                                }
+
+                                                else
+                                                {
+                                                    yeniMsj = msj + sayi.ToString();
+                                                    <div class="cart_box">
+                                                        <div class="@yeniMsj">
+                                                            <div class="list_img">
+                                                                <img src="../Content/Theme/images/15.jpg" class="img-responsive" alt="">
+                                                            </div>
+                                                            <div class="list_desc">
+                                                                <h4><a href="#">@item.prcName</a></h4>
+                                                                <p>@item.prcDesription</p>
+                                                                <a href="#" class="offer">@item.prcQuantity Teklif Uygulandı</a>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+
+                                                }
+                                                sayi++;
+                                            }
+                                        }
+
+                                    }
+                                </div>
+                                <div class="check_button" id="lnkSepetGoruntule">
+                                    @if (Session["Basket"] != null)
+                                    {
+                                        <a href="@Url.Action("Index", "Checkout")"><span> Sepeti Görüntüle</span></a>
+                                    }
+                                </div>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--script-->
+                    <script>
+                        $("span.menu").click(function () {
+                            $(".top-nav ul").slideToggle(500, function () {
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    @{
+        if (Session["AnasayfaMi"] == null)
+        {
+            <div class="banner banner-in">
+
+            </div>
+        }
+        Session.Remove("AnasayfaMi");
+
+    }
+
+    <div>
+        @RenderBody()
+    </div>
+    <!---->
+    <div class="about-us">
+        <div class="container">
+
+            <h2>Hakkımızda</h2>
+            <p>H2Walk’da, araştırmadan satışa, konsept geliştirmeden tasarım, üretim ve lojistiğe kadar inovasyonu faaliyetlerimizin merkezine yerleştiriyoruz. H2Walk “Tutku” markamızın ekipleri, bütün enerjilerini güzel ve basit teknik ürünler tasarlayıp bunları daima en düşük fiyata sunmaya yönlendiriyorlar. </p>
+            @*<i class="round"> </i>*@
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <a href="#" class="theme"><i> </i> “ Yaşamın doğal tadını çıkarmak için H2WALK”</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-at">
+                    <div class="col-md-6 footer-grid">
+                        <h3>Trekking</h3>
+                        <p>Trekking kavramı, en kısa ve net anlamıyla doğa yürüyüşü demektir. Daha çok dağlık bölgelerde, ormanlarda ve bu tarz yerlerde yapılmaktadır.</p>
+                    </div>
+                    <div class="col-md-6 footer-grid-in">
+                        <p class="footer-class">Copyright © 2015 by  <a href="http://hilmicanceliker.com/" target="_blank">Hilmican Çeliker</a> </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear'
+                };
+                */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+    </div>
+
+
+    <script src="~/Content/Theme/js/toastr.js"></script>
+    <script src="~/Content/Global.js"></script>
+    <script type="text/javascript" src="../../Content/Theme/js/jquery.flexisel.js"></script>
+    @if (IsSectionDefined("AddToFooter"))
+    {
+        @RenderSection("AddToFooter", required: false)
+    }
+
+</body>
+</html>

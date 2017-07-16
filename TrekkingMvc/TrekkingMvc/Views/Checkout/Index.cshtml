@@ -1,0 +1,142 @@
+﻿@using TrekkingMvc.Models.ViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    List<OrderVM> odList = new List<OrderVM>();
+    odList = (List<OrderVM>)Session["Basket"];
+}
+
+@section AddToFooter{
+    <script type="text/javascript" src="~/Content/CRUD/Orders/Order.js"></script>
+    <script src="~/Content/Theme/js/Address.js"></script>
+<script type="text/javascript">
+
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+</script>
+}
+
+
+<div class="container">
+    <div class="check-out">
+        <h2>KASA</h2>
+
+        @if (odList != null)
+            {
+            <table>
+                <thead>
+                    <tr style="text-align: center">
+                        <th>ÜRÜN</th>
+                        <th style="text-align: center">ADET</th>
+                        <th style="text-align: center">BEDEN</th>
+                        <th style="text-align: center">FİYAT</th>
+                        <th style="text-align: center">TOPLAM FİYAT</th>
+                        <th style="text-align: center">DÜZENLE</th>
+                    </tr>
+                </thead>
+                @foreach (var item in odList)
+                {
+                    <tbody>
+                        <tr>
+                            <td class="ring-in">
+                                <a href="#" class="at-in"><img src="../../Content/Theme/images/no-image-found.jpg" width="109" class="img-responsive" alt=""></a>
+                                <div class="sed">
+                                    <h5>@item.prcName</h5>
+                                    <p>(@item.prcDesription) </p>
+
+                                </div>
+                                <div class="clearfix"> </div>
+                            </td>
+                            <td class="check"><input type="number" min="1" id="txtAdetGuncelle" class="form-control" style="width: 60px" onkeypress="return isNumberKey(event)" value="@item.prcQuantity" contextmenu="@item.prcSize" name="@item.prcID" onblur="if (this.value == '' || this.value == '0') { this.value = '1'; }"></td>
+                            <td style="text-align:center">@item.prcSize</td>
+                            <td style="text-align:center">@item.prcUnitPrice ₺</td>
+                            <td style="text-align:center">@item.prcSubTotal ₺</td>
+                            <td>
+                                <button class="btn btn-danger center-block" id="sepettenCikar" value="@item.prcID" contextmenu="@item.prcSize" title="@item.prcQuantity">Çıkar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                }
+
+
+
+
+            </table>
+
+
+
+                <div class="row" id="AdresEkleme" style="display: none">
+                    <div class="col-md-12">
+                        <form class="form-horizontal" role="form">
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend>Adres Bilgileri</legend>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Ad Soyad</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" id="txtAdSoyad" placeholder="Ad Soyad" class="form-control">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Ülke</label>
+                                    <div class="col-sm-10">
+                                        <select id="slcUlke" name="Ulke" class="form-control">
+                                            <option value="" selected="selected">Ülke Seçiniz</option>
+                                            <option value="TR">Türkiye</option>
+                                            <option value="EN">İngiltere</option>
+                                            <option value="DC">Almanya</option>
+                                            <option value="FR">Fransa</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="txtSehir">Şehir</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" placeholder="Şehir" id="txtSehir" class="form-control">
+                                    </div>
+                                    <label class="col-sm-2 control-label" for="txtPostaKodu">Posta Kodu</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" placeholder="Posta Kodu" id="txtPostaKodu" class="form-control">
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="txtAdres">Adres</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="txtAdres" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+
+                <br id="bosluk" />
+
+                <button class="hvr-shutter-in-horizontal" id="AddAddress" style="border: 0px;">Devam Et</button>
+        }
+        else
+        {
+
+            <br />
+            <br />
+            <br />
+            <h1 class="alert alert-warning text-center">SEPETTE ÜRÜN YOK</h1>
+        }
+
+
+        <div class="clearfix"> </div>
+    </div>
+</div>
+
+
